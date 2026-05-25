@@ -60,41 +60,49 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
   <h2 class="section-title">Recent Work</h2>
   <div class="grid">
     <div class="card">
-      <h3>Plumbing Business Redesign</h3>
-      <p>Improved conversions and modernized outdated design.</p>
+      <h2>Lazaro's Landscaping Services</h2>
+      
         <div class="slider">
 
           <div class="slides">
-            <img src="images/Bertola-1.png" class="slide active">
-            <img src="images/Bertola-2.png" class="slide">
-            <img src="images/Bertola-3.png" class="slide">
-            <img src="images/Bertola-4.png" class="slide">
+            <img src="images/LL_homepage.png" class="slide active">
+            <img src="images/LL_services.png" class="slide">
+            <img src="images/LL_gallery.png" class="slide">
+            <img src="images/LL_projects.png" class="slide">
+            <img src="images/LL_Contact_Form.png" class="slide">
           </div>
 
           <button class="prev">&#10094;</button>
           <button class="next">&#10095;</button>
 
         </div>
-
-        <h3>Plumbing Website Redesign</h3>
-        <p>Modern, high-converting layout.</p>
+        <h2>The Best Online Marketing Tool For Small Businesses</h2>
+        <br>
+        <p>
+            Lazaro’s Landscaping Services previously lacked a strong online presence. 
+            With the help of DafneWebDesign, the business now has a modern website that showcases its landscaping expertise, highlights completed projects, and makes it easier for potential clients to learn about its services. 
+            The website helps establish credibility, build trust with homeowners, and expand the company’s reach to attract more local customers.
+        </p>
+        <br>
+        <a class="btn-outline-blue button-margin" href="https://lazaroslandscapingservices.com"> Visit Site</a>
+        
     </div>
   </div>
 </section>
 
 
-<section id="work" class="portfolio">
+<section id="work_part2" class="portfolio">
   <div class="grid">
     <div class="card">
-      <h3>Plumbing Business Redesign</h3>
-      <p>Improved conversions and modernized outdated design.</p>
+      <h2>Dafne Codes Portfolio</h2>
         <div class="slider">
 
           <div class="slides">
-            <img src="images/Bertola-1.png" class="slide active">
-            <img src="images/Bertola-2.png" class="slide">
-            <img src="images/Bertola-3.png" class="slide">
-            <img src="images/Bertola-4.png" class="slide">
+            <img src="images/dafne_codes_homepage.png" class="slide active">
+            <img src="images/dafne_codes_homepage2.png" class="slide">
+            <img src="images/dafne_codes_projects.png" class="slide">
+            <img src="images/dafne_codes_about_us.png" class="slide">
+            <img src="images/dafne_codes_contact_form.png" class="slide">
           </div>
 
           <button class="prev">&#10094;</button>
@@ -102,8 +110,49 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
         </div>
 
-        <h3>Plumbing Website Redesign</h3>
-        <p>Modern, high-converting layout.</p>
+        <h2>Showcase Your Expertise</h2>
+        <br>
+        <p>I have design and built an online portfolio for myself to showcase my 
+          previous projects, background and education as a web developer. Having this tool allows 
+          me the opportunity to establish credibility and build trust with potential clients. 
+        </p>
+        <br>
+        <a class="btn-outline-blue button-margin" href="https://lazaroslandscapingservices.com"> Visit Site</a>
+        
+    </div>
+  </div>
+</section>
+
+<section id="work_part3" class="portfolio">
+  <div class="grid">
+    <div class="card">
+      <h2>Bertola Plumbing</h2>
+        <div class="slider">
+
+          <div class="slides">
+            <img src="images/Bertola/old_bertola1.png" class="slide active">
+            <img src="images/Bertola/old_bertola2.png" class="slide">
+            <img src="images/Bertola/old_bertola3.png" class="slide">
+            <img src="images/Bertola/old_bertola4.png" class="slide">
+            <img src="images/Bertola/old_bertola5.png" class="slide">
+            <img src="images/Bertola/Bertola_1.png" class="slide">
+            <img src="images/Bertola/Bertola_2.png" class="slide">
+            <img src="images/Bertola/Bertola_3.png" class="slide">
+            <img src="images/Bertola/Bertola_4.png" class="slide">
+            <img src="images/Bertola/Bertola_5.png" class="slide">
+          </div>
+
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+
+        </div>
+
+        <h2>Website Redesign</h2>
+        <br>
+        <p>For this project, I redesigned and modernized Bertola Plumbing’s website to create a more professional, user-friendly experience. The previous site contained excessive information, visually distracting imagery, and limited contrast between text and background, which affected readability and overall usability.
+           DafneWebDesign transformed the website into a clean, modern platform focused on building trust and increasing customer conversions. The redesigned site now features clear service information, improved navigation, and multiple convenient ways for potential clients to contact the company or request a quote.
+        <br>
+        <br>
     </div>
   </div>
 </section>
@@ -132,22 +181,29 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     </div>
 </footer>
 <script>
-  const slides = document.querySelectorAll(".slide");
-  let index = 0;
+  const sliders = document.querySelectorAll(".slider");
 
-  function showSlide(i) {
-    slides.forEach(slide => slide.classList.remove("active"));
-    slides[i].classList.add("active");
-  }
+  sliders.forEach((slider) => {
+    const slides = slider.querySelectorAll(".slide");
+    const nextBtn = slider.querySelector(".next");
+    const prevBtn = slider.querySelector(".prev");
 
-  document.querySelector(".next").addEventListener("click", () => {
-    index = (index + 1) % slides.length;
-    showSlide(index);
-  });
+    let index = 0;
 
-  document.querySelector(".prev").addEventListener("click", () => {
-    index = (index - 1 + slides.length) % slides.length;
-    showSlide(index);
+    function showSlide(i) {
+      slides.forEach(slide => slide.classList.remove("active"));
+      slides[i].classList.add("active");
+    }
+
+    nextBtn.addEventListener("click", () => {
+      index = (index + 1) % slides.length;
+      showSlide(index);
+    });
+
+    prevBtn.addEventListener("click", () => {
+      index = (index - 1 + slides.length) % slides.length;
+      showSlide(index);
+    });
   });
 </script>
 </body>
