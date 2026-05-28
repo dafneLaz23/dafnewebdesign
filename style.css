@@ -141,7 +141,7 @@
       border-radius:16px;
       box-shadow:0 10px 25px rgba(0,0,0,0.08);
       max-width:700px;
-      margin:auto;
+      margin:50px auto;
     }
 
     form{
@@ -154,7 +154,7 @@
       padding:14px;
       border:1px solid #ddd;
       border-radius:8px;
-      font-size:16px;
+      font-size:18px;
     }
 
 
@@ -165,6 +165,7 @@
       color: white;
       cursor: pointer;
       border-radius: 6px;
+      font-size: 18px;
     }
 
     footer {
@@ -172,7 +173,7 @@
       padding: 40px;
       font-size: 14px;
       color: #666;
-
+      margin-top: 150px;
     }
 .social-icons{
   display:flex;
