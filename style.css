@@ -272,6 +272,9 @@
       .icon{
         display: none;
       }
+      button{
+        margin-bottom: 25px;
+      }
     }
 
 
