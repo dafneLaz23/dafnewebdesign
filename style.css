@@ -203,7 +203,7 @@
 }
 
     .logo {
-      height: 45px;       /* Controls logo size */
+      height: 90px;       /* Controls logo size */
       width: auto;        /* Keeps proportions */
       object-fit: contain;
       padding: 0px;
@@ -266,15 +266,7 @@
         width: 100%;
         box-shadow: 0 10px 30px rgba(0,0,0,0.15);
       }
-      .btn-outline-blue{
-        display: none;
-      }
-      .icon{
-        display: none;
-      }
-      button{
-        margin-bottom: 25px;
-      }
+
     }
 
 
@@ -320,6 +312,11 @@
       margin: 0 auto;
     }
     #work_part3 .card {
+      width: 100%;
+      max-width: 800px;
+      margin: 50px auto;
+    }
+    #work_part4 .card {
       width: 100%;
       max-width: 800px;
       margin: 50px auto;
