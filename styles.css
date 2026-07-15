@@ -57,6 +57,8 @@ img{ max-width: 100%; display: block; }
 
 ul{ margin: 0; padding: 0; list-style: none; }
 
+
+
 .accent-italic{
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -168,7 +170,7 @@ ul{ margin: 0; padding: 0; list-style: none; }
   font-weight: 800;
   flex-shrink: 0;
 }
-.navbar.on-dark .brand-mark{ background: var(--white); color: var(--navy); }
+.navbar.on-dark .brand-mark{ background: url("images/V2_logo_no_name.png") center/cover no-repeat; color: var(--navy); }
 
 .nav-links{
   display: flex;
@@ -459,6 +461,12 @@ ul{ margin: 0; padding: 0; list-style: none; }
   background: url("images/wireframes.jpg") center/cover no-repeat;
 }
 
+.project-content{
+  background: url("images/Bertola/Bertola_1.png")
+}
+
+
+
 .card-1on1{ background: var(--white); box-shadow: var(--shadow-soft); }
 .card-1on1 h3{ font-size: 26px; margin-bottom: 8px; }
 .card-1on1 p{ color: var(--muted); font-size: 14.5px; }
@@ -475,6 +483,8 @@ ul{ margin: 0; padding: 0; list-style: none; }
 }
 .icon-square.blue{ background: var(--blue); }
 .icon-square.terracotta-light{ background: rgba(255,255,255,0.25); }
+.icon-square.coral{background: var(--coral); }
+.icon-square.terracotta{background: var(--terracotta); }
 
 /* ---------- About / real person section ---------- */
 .about-split{
@@ -576,7 +586,7 @@ ul{ margin: 0; padding: 0; list-style: none; }
   flex-wrap: wrap;
 }
 .footer-left{ display: flex; align-items: center; gap: 36px; flex-wrap: wrap; }
-.footer-brand{ display: flex; align-items: center; gap: 10px; font-weight: 800; font-family: 'Poppins', sans-serif; }
+.footer-{ display: flex; align-items: center; gap: 10px; font-weight: 800; font-family: 'Poppins', sans-serif; }
 .footer-links{ display: flex; gap: 26px; flex-wrap: wrap; }
 .footer-links a{ font-size: 14.5px; color: var(--muted); font-weight: 500; }
 .footer-links a:hover{ color: var(--ink); }
@@ -588,7 +598,7 @@ ul{ margin: 0; padding: 0; list-style: none; }
 .site-footer.on-dark .footer-links a:hover{ color: var(--white); }
 .site-footer.on-dark .footer-copy{ color: #64708a; }
 .site-footer.on-dark .footer-brand{ color: var(--white); }
-.site-footer.on-dark .footer-brand .brand-mark{ background: var(--white); color: var(--navy); }
+.site-footer.on-dark .footer-brand .brand-mark{ background: url("images/V2_logo_no_name.png") center/cover no-repeat; color: var(--navy); }
 
 /* ================= SERVICES PAGE ================= */
 .services-grid{
@@ -750,7 +760,6 @@ ul{ margin: 0; padding: 0; list-style: none; }
 }
 .work-card .thumb{
   background: #eee6d8;
-  border: 2px dashed #c9bfa9;
   aspect-ratio: 16/11;
   display: flex; align-items: center; justify-content: center;
   color: var(--muted);
@@ -818,6 +827,14 @@ body.page-contact{ background: var(--navy); }
 .contact-method .label{ font-size: 13px; color: #93a3bd; margin-bottom: 2px; }
 .contact-method .value{ font-weight: 700; color: var(--white); font-size: 16px; }
 
+.contact-icon {
+    color: white;
+    font-size: 1.2rem;
+    width: 24px;
+    text-align: center;
+    margin-right: 10px;
+}
+
 .reassurance-card{
   background: rgba(255,255,255,0.06);
   border-radius: var(--radius-sm);
@@ -884,8 +901,12 @@ body.page-contact{ background: var(--navy); }
   .nav-links{ display: none; }
 }
 
-@media (max-width: 560px){
+@media screen and (max-width: 768px){
   .section{ padding: 56px 0; }
   .hero, .hero-simple, .cta-banner, .about-split{ padding: 40px 22px; }
   .contact-form-card{ padding: 28px; }
+  .intro-bubble { display: none !important;}
 }
+
+
+

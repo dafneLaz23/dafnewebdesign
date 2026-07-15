@@ -1,238 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DafneWebDesign Services</title>
-  <meta name="description" content="Freelance web developer helping local businesses get more calls and customers." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+DE+SAS:wght@100..400&family=Questrial&display=swap" rel="stylesheet">
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="/Logo_icon.png">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-<style></style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services — DafneWebDesign</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 </head>
-
 <body>
 
-<header>
-  <img src="images/logo-navbar.png" alt="logo" class="logo">
-  <nav>
-    <a class="btn-outline-blue" href="tel:+12037275909">
-      Call Me
-    <span class="icon">
-      <svg viewBox="0 0 24 24" width="18" height="18" fill="rgb(9, 154, 244)">
-        <path d="M6.6 10.8c1.5 3 3.9 5.4 6.9 6.9l2.3-2.3c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.9.6.6 0 1 .4 1 1V21c0 .6-.4 1-1 1C10.3 22 2 13.7 2 3c0-.6.4-1 1-1h4.3c.6 0 1 .4 1 1 0 1.4.2 2.7.6 3.9.1.4 0 .8-.3 1.1l-2.3 2.3z"/>
-      </svg>
-    </span>
-  </a>
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+<header class="navbar">
+  <div class="container">
+    <div class="navbar-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"></span>
+        DafneWebDesign
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="work.html">Work</a>
+      </nav>
+      <a href="contact.html" class="btn btn-coral btn-sm">Let's chat</a>
+    </div>
+  </div>
 </header>
 
-<section id="services">
-  <h2 class="section-title">What I Do</h2>
-  <div class="grid">
-    <div class="service-card">
-      <h3>Website Design & Redesign</h3>
-      <p>Clean, modern websites built to convert visitors into paying customers.</p>
-    </div>
-    <div class="service-card">
-      <h3>Speed Optimization</h3>
-      <p>Fast loading sites that keep users engaged and improve Google ranking.</p>
-    </div>
-    <div class="service-card">
-      <h3>Local SEO Setup</h3>
-      <p>Help your business show up when people search in your area.</p>
-    </div>
-  </div>
-</section>
+<main>
 
-<section id="work" class="portfolio">
-  <h2 class="section-title">Recent Work</h2>
-  <div class="grid">
-    <div class="card">
-      <h2>Lazaro's Landscaping Services</h2>
-      
-        <div class="slider">
+  <!-- HERO -->
+  <section class="container" style="padding-top:20px;">
+    <div class="hero-light hero-simple">
+      <div class="hero-content">
+      <span class="eyebrow">HOW I CAN HELP</span>
+      <h1>Friendly help, <span class="accent-italic">professional</span> results.</h1>
+      <p>No confusing packages — just the handful of things that genuinely help a local business get found and grow.</p>
+      </div>
+    </div>
+  </section>
 
-          <div class="slides">
-            <img src="images/Lazaro_Landscaping/LL_homepage.png" class="slide active">
-            <img src="images/Lazaro_Landscaping/LL_services.png" class="slide">
-            <img src="images/Lazaro_Landscaping/LL_gallery.png" class="slide">
-            <img src="images/Lazaro_Landscaping/LL_projects.png" class="slide">
-            <img src="images/Lazaro_Landscaping/LL_Contact_Form.png" class="slide">
+  <!-- SERVICES GRID -->
+  <section class="section">
+    <div class="container">
+      <div class="services-grid">
+        <div class="card card-navy" style="grid-column:auto; grid-row:auto;">
+          <div class="blob"></div>
+          <div class="card-inner">
+            <span class="eyebrow eyebrow-onnavy" style="margin-bottom:0;">01 / FLAGSHIP</span>
+            <h3>Website Design &amp; Redesign</h3>
+            <p>A clean, modern site that feels like you — clear pages, obvious next steps, and a look that earns trust the moment someone lands.</p>
+            <div class="tags" style="margin-top:20px; display:flex; gap:10px; flex-wrap:wrap;">
+              <span class="tag tag-onnavy">Custom design</span>
+              <span class="tag tag-onnavy">Mobile-first</span>
+              <span class="tag tag-onnavy">Built to convert</span>
+            </div>
           </div>
-
-          <button class="prev">&#10094;</button>
-          <button class="next">&#10095;</button>
-
         </div>
-        <h2>The Best Online Marketing Tool For Small Businesses</h2>
-        <br>
-        <p>
-            Lazaro’s Landscaping Services previously lacked a strong online presence. 
-            With the help of DafneWebDesign, the business now has a modern website that showcases its landscaping expertise, highlights completed projects, and makes it easier for potential clients to learn about its services. 
-            The website helps establish credibility, build trust with homeowners, and expand the company’s reach to attract more local customers.
-        </p>
-        <br>
-        <a class="btn-outline-blue button-margin" href="https://lazaroslandscapingservices.com"> Visit Site</a>
-        
-    </div>
-  </div>
-</section>
 
-
-<section id="work_part2" class="portfolio">
-  <div class="grid">
-    <div class="card">
-      <h2>Dafne Codes Portfolio</h2>
-        <div class="slider">
-
-          <div class="slides">
-            <img src="images/dafne_codes/dafne_codes_homepage.png" class="slide active">
-            <img src="images/dafne_codes/dafne_codes_homepage2.png" class="slide">
-            <img src="images/dafne_codes/dafne_codes_projects.png" class="slide">
-            <img src="images/dafne_codes/dafne_codes_about_us.png" class="slide">
-            <img src="images/dafne_codes/dafne_codes_contact_form.png" class="slide">
-          </div>
-
-          <button class="prev">&#10094;</button>
-          <button class="next">&#10095;</button>
+        <div class="card-photo" style="width:auto; height: 250px">
 
         </div>
 
-        <h2>Showcase Your Expertise</h2>
-        <br>
-        <p>I have design and built an online portfolio for myself to showcase my 
-          previous projects, background and education as a web developer. Having this tool allows 
-          me the opportunity to establish credibility and build trust with potential clients. 
-        </p>
-        <br>
-        <a class="btn-outline-blue button-margin" href="https://dafnecodes.netlify.app/"> Visit Site</a>
-        
-    </div>
-  </div>
-</section>
-
-<section id="work_part3" class="portfolio">
-  <div class="grid">
-    <div class="card">
-      <h2>Bertola Plumbing</h2>
-        <div class="slider">
-
-          <div class="slides">
-            <img src="images/Bertola/old_bertola1.png" class="slide active">
-            <img src="images/Bertola/old_bertola2.png" class="slide">
-            <img src="images/Bertola/old_bertola3.png" class="slide">
-            <img src="images/Bertola/old_bertola4.png" class="slide">
-            <img src="images/Bertola/old_bertola5.png" class="slide">
-            <img src="images/Bertola/Bertola_1.png" class="slide">
-            <img src="images/Bertola/Bertola_2.png" class="slide">
-            <img src="images/Bertola/Bertola_3.png" class="slide">
-            <img src="images/Bertola/Bertola_4.png" class="slide">
-            <img src="images/Bertola/Bertola_5.png" class="slide">
+        <div class="card card-white">
+          <div class="icon-square blue">
+            <i class="fa-solid fa-bolt"></i>
           </div>
-
-          <button class="prev">&#10094;</button>
-          <button class="next">&#10095;</button>
-
+          <h3>Speed Optimization</h3>
+          <p>Slow sites lose customers. I tune your images, code, and hosting so pages load in a blink and rank better on Google.</p>
         </div>
 
-        <h2>Website Redesign</h2>
-        <br>
-        <p>For this project, I redesigned and modernized Bertola Plumbing’s website to create a more professional, user-friendly experience. The previous site contained excessive information, visually distracting imagery, and limited contrast between text and background, which affected readability and overall usability.
-           DafneWebDesign transformed the website into a clean, modern platform focused on building trust and increasing customer conversions. The redesigned site now features clear service information, improved navigation, and multiple convenient ways for potential clients to contact the company or request a quote.
-        <br>
-        <br>
-    </div>
-  </div>
-</section>
-
-<section id="work_part4" class="portfolio">
-  <div class="grid">
-    <div class="card">
-      <h2>Call the Plumber LLC</h2>
-        <div class="slider">
-
-          <div class="slides">
-            <img src="images/Call-the-plumber/old-hero.png" class="slide active">
-            <img src="images/Call-the-plumber/old-mission.png" class="slide">
-            <img src="images/Call-the-plumber/old-services.png" class="slide">
-            <img src="images/Call-the-plumber/old-contact-page.png" class="slide">
-            <img src="images/Call-the-plumber/hero-nav.png" class="slide">
-            <img src="images/Call-the-plumber/services.png" class="slide">
-            <img src="images/Call-the-plumber/testimonials.png" class="slide">
-            <img src="images/Call-the-plumber/form-map.png" class="slide">
+        <div class="card card-terracotta">
+          <div class="icon-square terracotta-light">
+            <i class="fa-solid fa-globe"></i>
           </div>
-
-          <button class="prev">&#10094;</button>
-          <button class="next">&#10095;</button>
-
+          <h3>Local SEO Setup</h3>
+          <p>Help nearby customers find you the moment they search — Google Business Profile, local keywords, the basics done right.</p>
         </div>
-
-        <h2>Website Redesign</h2>
-        <br>
-        <p>For this project, I redesigned and modernized Call the Plumber LLC's website to better reflect the professionalism and reliability of the business. The previous website featured an outdated layout, lacked a clear user journey, and did not effectively showcase the company's services or expertise. DafneWebDesign reimagined the site with a modern design, improved content organization, and conversion-focused calls-to-action. The result is a more engaging online experience that helps visitors quickly find the information they need, builds confidence in the company, and encourages more service inquiries and quote requests.</p>
-        <br>
+      </div>
     </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="section-head-center">
+        <h2>A simple, no-overwhelm process</h2>
+      </div>
+      <div class="process-grid">
+        <div class="process-card">
+          <div class="process-num">01</div>
+          <h3>We talk</h3>
+          <p>A friendly call about your business and goals.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">02</div>
+          <h3>I design</h3>
+          <p>You see a real layout before anything's built.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">03</div>
+          <h3>I build</h3>
+          <p>Fast, mobile-first, tested on every device.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">04</div>
+          <h3>You grow</h3>
+          <p>Launch, get found, and earn more calls.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="container">
+    <div class="cta-banner">
+      <div class="blob"></div>
+      <div class="cta-banner-content">
+        <h2><span class="accent-italic" style="color:#fff;">Not sure</span> what you need?</h2>
+        <p>Let's figure it out together — no obligation.</p>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-white">Book a free chat</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-left">
+      <a href="index.html" class="footer-brand">
+        <span class="brand-mark"></span> DafneWebDesign
+      </a>
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <span class="footer-copy">© 2026 DafneWebDesign</span>
+    </div>
+    <a href="contact.html" class="btn btn-coral btn-sm">Let's talk →</a>
   </div>
-</section>
-
-<footer>
-  <p>© 2026 DafneWebDesign. All rights reserved.</p>
-  <div class="social-icons">
-      <a href="" target="_blank">
-        <i class="fa-brands fa-facebook-f"></i>
-      </a>
-
-      <a href="https://www.instagram.com/dafnewebdesigns/" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-
-      <a href="mailto:dafnewebdesign@gmail.com">
-        <i class="fa-brands fa-google"></i>
-      </a>
-      <a href="https://linkedin.com/in/dafnelazaro" target="_blank">
-        <i class="fa-brands fa-linkedin-in"></i>
-      </a>
-
-      <a href="https://github.com/dafneLaz23" target="_blank">
-        <i class="fa-brands fa-github"></i>
-      </a>
-    </div>
 </footer>
-<script>
-  const sliders = document.querySelectorAll(".slider");
 
-  sliders.forEach((slider) => {
-    const slides = slider.querySelectorAll(".slide");
-    const nextBtn = slider.querySelector(".next");
-    const prevBtn = slider.querySelector(".prev");
-
-    let index = 0;
-
-    function showSlide(i) {
-      slides.forEach(slide => slide.classList.remove("active"));
-      slides[i].classList.add("active");
-    }
-
-    nextBtn.addEventListener("click", () => {
-      index = (index + 1) % slides.length;
-      showSlide(index);
-    });
-
-    prevBtn.addEventListener("click", () => {
-      index = (index - 1 + slides.length) % slides.length;
-      showSlide(index);
-    });
-  });
-</script>
 </body>
 </html>
