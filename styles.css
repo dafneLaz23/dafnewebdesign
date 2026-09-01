@@ -330,7 +330,7 @@ ul{ margin: 0; padding: 0; list-style: none; }
   position: relative;
 }
 .hero-photo-card{
-  background: url("images/Laptop_with_Logo.png") center/cover no-repeat;
+  background: url("images/Laptop_with_Desktop.png") center/cover no-repeat;
   border-radius: var(--radius-md);
   aspect-ratio: 4/5;
   display: flex;
