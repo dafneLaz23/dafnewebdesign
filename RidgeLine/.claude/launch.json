@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "ridgeline",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd '/Users/dafnelazaro/Documents/RidgeLine' && exec python3 -m http.server 8743"],
+      "port": 8743
+    }
+  ]
+}

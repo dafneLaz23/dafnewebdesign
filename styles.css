@@ -795,6 +795,63 @@ ul{ margin: 0; padding: 0; list-style: none; }
 .work-cta-card h3{ color: var(--white); font-size: 20px; position: relative; z-index: 1; }
 .work-cta-card .btn{ position: relative; z-index: 1; }
  
+
+/* ---------- Landscaping website packages ---------- */
+.section-packages{ padding-bottom: 0; }
+.packages-intro{ color: var(--muted); font-size: 16px; margin-top: 16px; }
+.package-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+.package-card{
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.package-thumb{
+  display: block;
+  background: var(--navy);
+  padding: 22px 22px 0;
+  overflow: hidden;
+}
+.package-thumb img{
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: top;
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  transition: transform .35s ease;
+}
+.package-thumb:hover img{ transform: translateY(-4px); }
+.package-body{ padding: 32px 34px 34px; display: flex; flex-direction: column; flex: 1; }
+.package-body .tag{ align-self: flex-start; }
+.package-body h3{ font-size: clamp(21px, 2.4vw, 26px); margin: 16px 0 12px; }
+.package-body > p{ color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+.package-features{ margin-bottom: 26px; }
+.package-features li{
+  position: relative;
+  padding-left: 28px;
+  font-size: 14.5px;
+  color: var(--ink);
+}
+.package-features li::before{
+  content: "✓";
+  position: absolute; left: 0; top: 0;
+  color: var(--coral);
+  font-weight: 800;
+}
+.package-actions{
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 /* ================= CONTACT PAGE ================= */
 body.page-contact{ background: var(--navy); }
 .contact-wrap{
@@ -905,6 +962,7 @@ body.page-contact{ background: var(--navy); }
   .price-card.featured{ transform: none; }
   .featured-project{ grid-template-columns: 1fr; }
   .work-grid{ grid-template-columns: 1fr; }
+  .package-grid{ grid-template-columns: 1fr; }
   .contact-wrap{ grid-template-columns: 1fr; }
   .form-row{ grid-template-columns: 1fr; }
   .strip{ margin-top: 0; }
@@ -917,6 +975,8 @@ body.page-contact{ background: var(--navy); }
   .section-tight{ padding: 40px 0; }
   .hero, .hero-simple, .cta-banner, .about-split{ padding: 40px 22px; }
   .contact-form-card{ padding: 28px; }
+  .package-body{ padding: 26px 22px 28px; }
+  .package-thumb{ padding: 14px 14px 0; }
  
   /* keep the nav from crowding on narrow phones */
   .navbar-inner{ padding: 8px 8px 8px 14px; }

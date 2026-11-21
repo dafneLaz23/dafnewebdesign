@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Placeholder photo: Lawn renovation, Maple Hollow ST">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CFE3F0"/><stop offset="1" stop-color="#EAF2E1"/></linearGradient></defs>
+<rect width="800" height="600" fill="url(#g)"/>
+<circle cx="266" cy="241" r="85" fill="#2F6B3A"/>
+<circle cx="308" cy="235" r="90" fill="#285C33"/>
+<circle cx="403" cy="210" r="67" fill="#285C33"/>
+<circle cx="165" cy="213" r="64" fill="#285C33"/>
+<circle cx="509" cy="214" r="95" fill="#3E7D43"/>
+<circle cx="340" cy="228" r="108" fill="#3E7D43"/>
+<path d="M0 300 C200 270 500 330 800 290 V600 H0Z" fill="#5BAA47"/>
+<path d="M0 600 L60 300 L100 300 L50 600Z" fill="#fff" opacity=".08"/>
+<path d="M100 600 L160 300 L200 300 L150 600Z" fill="#fff" opacity=".08"/>
+<path d="M200 600 L260 300 L300 300 L250 600Z" fill="#fff" opacity=".08"/>
+<path d="M300 600 L360 300 L400 300 L350 600Z" fill="#fff" opacity=".08"/>
+<path d="M400 600 L460 300 L500 300 L450 600Z" fill="#fff" opacity=".08"/>
+<path d="M500 600 L560 300 L600 300 L550 600Z" fill="#fff" opacity=".08"/>
+<path d="M600 600 L660 300 L700 300 L650 600Z" fill="#fff" opacity=".08"/>
+<path d="M700 600 L760 300 L800 300 L750 600Z" fill="#fff" opacity=".08"/>
+<rect x="20" y="540" width="432" height="40" rx="20" fill="#0B3D18" opacity=".75"/><text x="40" y="566" font-family="Arial, sans-serif" font-size="20" fill="#fff">Placeholder: Lawn renovation, Maple Hollow ST</text></svg>
