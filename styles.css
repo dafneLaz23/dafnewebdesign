@@ -827,6 +827,8 @@ ul{ margin: 0; padding: 0; list-style: none; }
   transition: transform .35s ease;
 }
 .package-thumb:hover img{ transform: translateY(-4px); }
+/* odd card out: center it under the pair instead of leaving it stranded on the left */
+.package-grid > .package-card:last-child:nth-child(odd){ grid-column: 1 / -1; justify-self: center; width: calc(50% - 14px); }
 .package-body{ padding: 32px 34px 34px; display: flex; flex-direction: column; flex: 1; }
 .package-body .tag{ align-self: flex-start; }
 .package-body h3{ font-size: clamp(21px, 2.4vw, 26px); margin: 16px 0 12px; }
@@ -963,6 +965,7 @@ body.page-contact{ background: var(--navy); }
   .featured-project{ grid-template-columns: 1fr; }
   .work-grid{ grid-template-columns: 1fr; }
   .package-grid{ grid-template-columns: 1fr; }
+  .package-grid > .package-card:last-child:nth-child(odd){ width: auto; }
   .contact-wrap{ grid-template-columns: 1fr; }
   .form-row{ grid-template-columns: 1fr; }
   .strip{ margin-top: 0; }
